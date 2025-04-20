@@ -42,6 +42,7 @@
   .gallery-item {
     margin: 8px;              
     box-sizing: border-box;
+    width: 360px;
   }
   
   .gallery-item img {
@@ -67,6 +68,7 @@
     padding: 4px;
     height: auto;
   }
+  
 
   .img-comment-title {
     font-size: 12px;
@@ -74,12 +76,15 @@
     letter-spacing: 0.04em;
     color: #2e2f42;
   }
+
   .img-comment {
     font-size: 12px;
     line-height: 200%;
     letter-spacing: 0.04em;
     color: #2e2f42;
   }
+  
+
   
   .loader {
     margin: 0 auto;
