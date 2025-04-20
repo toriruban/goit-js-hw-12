@@ -8,10 +8,10 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 import { fetchPhotosByQuery } from './js/pixabay-api';
 import { createGalleryCardTemplate } from './js/render-functions';
 
-const searchForm = document.querySelector('.user-search');
-const inputSearchImages = document.querySelector('#input-search');
-const resultsDiv = document.querySelector('#results');
-const loader = document.querySelector('#loader-js');
+const searchForm = document.querySelector('.form');
+const inputSearchImages = document.querySelector('.input-search');
+const resultsDiv = document.querySelector('.gallery');
+const loader = document.querySelector('.loader');
 const loadMore = document.querySelector('.js-load-more-btn');
 
 let page = 1;
