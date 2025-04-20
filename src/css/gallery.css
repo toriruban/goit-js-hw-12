@@ -1,0 +1,120 @@
+.user-search {
+    display: flex;
+    width: 370px;
+    margin: 12px auto 0;
+  }
+  
+  .input-search {
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    height: 40px;
+    width: 272px;
+    padding-left: 8px;
+    margin-right: 8px;
+  }
+  .input-search:hover   { border-color: #000;   }
+  .input-search:active  { border-color: #4e75ff; }
+  
+  .btn-search {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    height: 40px;
+    width: 91px;
+    background-color: #4e75ff;
+  }
+  .btn-search:hover { background-color: #6c8cff; }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;   
+
+  }
+  
+  .gallery-item {
+    margin: 8px;              
+    box-sizing: border-box;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 200px;           
+    object-fit: cover;        
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gallery-item {
+    width: calc((100% - 8px*2*4) / 4);
+  }
+  .gallery-item:hover img {
+    transform: scale(1.05);
+  }
+  
+  .comment-box {
+    height: 48px;
+    padding: 4px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .img-comment-title {
+    font-size: 12px;
+    line-height: 133%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  .img-comment {
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  
+  .loader {
+    margin: 0 auto;
+    width: 48px;
+    height: 48px;
+    border: 5px solid #fff;
+    border-bottom-color: #ff3d00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  .loader.hidden { display: none; }
+  
+  @keyframes rotation {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  
+  .load-more-btn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 32px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 125px;
+    height: 40px;
+    background: #4e75ff;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    margin-bottom: 60px;
+  }
+  .load-more-btn.is-hidden {
+    display: none;
+  }
