@@ -11,4 +11,4 @@ export const createGalleryCardTemplate = image => {
                     <p class='img-comment'><b class='img-comment-title'>Downloads</b>: ${image.downloads}</p>
                   </div>
                 </div>`
-}
+};

@@ -4,7 +4,7 @@ import axios from "axios";
 export const fetchPhotosByQuery = (query, currentPage) => {
     const axiosOptions = {
         params: {
-            key: '48301172-ef8913a37f764f18c5dbf5629',
+            key: '49835598-9f74b1000f2ba2b610eab7f75',
             q: query,
             image_type: 'photo', 
             orientation: 'horizontal',
